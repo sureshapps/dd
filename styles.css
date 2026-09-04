@@ -62,13 +62,17 @@ button {
   font: inherit;
 }
 
+h2 {
+                                                                    font-family: 'Font', sans-serif;
+font-style: italic;
+}
+
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Anton", Impact, sans-serif;
+                                                                    font-family: 'KACHIKA', sans-serif;
   font-weight: 400;
 }
 
@@ -242,11 +246,15 @@ body:not([data-section="intro"]) .content-shade {
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   color: #fff;
-  font-size: 0.72rem;
+  font-size: 1rem;
   font-weight: 750;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.04em;
   text-decoration: none;
   transition: background-color 200ms ease, border-color 200ms ease, transform 200ms ease;
+                                                                    font-family: 'KACHIKA', sans-serif;
+                                                
+                                                
+                                                
 }
 
 .home-mark:hover {
